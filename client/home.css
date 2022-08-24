@@ -3,6 +3,11 @@ html, body {
     height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
 
@@ -16,11 +21,17 @@ a:hover {
 #nav {
     display: flex;
     justify-content: flex-end;
+    padding-top: 10px;
 }
 
 #nav a {
     margin-right: 20px;
     
+}
+
+#nav a img {
+    width: 18px;
+    height: auto;
 }
 
 #nav a.topimage {
@@ -34,12 +45,17 @@ a:hover {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 150px;
 }
 
 #logo {
     text-align: center;
+}
+
+#logo img {
+    width: 300px;
+    height: auto;
 }
 
 #sb_container {
@@ -63,6 +79,11 @@ a:hover {
 
 #voice_icon {
     right: 10px;
+}
+
+#voice_icon img {
+    width: 15px;
+    height: auto;
 }
 
 #searchbar {
@@ -101,12 +122,27 @@ a:hover {
     border: 1px solid #eee;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+.footer {
+    display: grid;
+    background: #eee;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-#footer_content {
-    background: #eee;
-    border-top: 1px solid black;
+.footer_content {
+    border-top: 1px solid #c4c4c4;
+    padding: 5px;
+    color: gray;
+    text-align: left;
+}
+
+.A {
+    grid-column: 1 / 13;
+}
+.E {
+    grid-column: 4 / 10;
+    text-align: center;
+}
+.E img {
+    width: 12px;
+    height: auto;
 }
