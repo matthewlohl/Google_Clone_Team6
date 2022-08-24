@@ -87,11 +87,42 @@ input[type=submit]{
     margin: 0px 5px;
 }
 
+/* || MAIN */
+
 
 main{
     min-height: 100vh;
+    margin: 10px 150px;
 }
 
+.results-card{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 40px 0px;
+}
+
+.results-card > a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.results-website{
+    display: flex;
+    color: #000;
+    margin: 5px 0px;
+}
+
+.results-website > img{
+    height: 20px;
+}
+
+
+.results-card > p{
+    padding: 5px 0px;
+}
+
+/* || FOOTER */
 
 footer{
     display: flex;
