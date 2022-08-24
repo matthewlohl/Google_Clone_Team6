@@ -17,9 +17,9 @@ const sportResults = [
 ]
 
 const filmResults = [
-    {id: 1, url: "", title: "result1", description: "", tags: "",},
-    {id: 2, url: "", title: "result2", description: "", tags: "",},
-    {id: 3, url: "", title: "result3", description: "", tags: "",}
+    {id: 1, url: "https://www.bfi.org.uk/", title: "BFI homepage | BFI", description: "The BFI National Archive has one of the most important film and TV collections in the world. Choose from a selection of 11,000 titles that cover 120 years ...", tags: "",},
+    {id: 2, url: "https://en.wikipedia.org/wiki/Film", title: "Film - Wikipedia", description: "A film – also called a movie, motion picture, moving picture, picture or photoplay – is a work of visual art that simulates experiences and otherwise ...", tags: "",},
+    {id: 3, url: "Film London: Homepage", title: "https://filmlondon.org.uk/", description: "Connecting ideas, talent and finance to develop a pioneering creative culture that delivers success in film, television, animation, games and beyond.", tags: "",}
 ]
 
 app.get('/', (req, res) => res.send('Hello World!'))
