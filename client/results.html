@@ -9,20 +9,52 @@
     <title>Search Result</title>
 </head>
 <body>
-    
-    <nav>
-        <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="Google logo">
-        <form>
-            <label for="search"></label>
-            <input id="searchbox" type="text">
-            <input id="searchicon" type="submit" value="&#128269">
-        </form>
-        <div class="nav-div-right">
-            <img src="./img/settings.png" alt="settings icon">
-            <img src="./img/more.png" alt="more logo">
-            <img src="https://www.windsorcakecraft.co.uk/images/super/TiffBlue_1.jpg" alt="profile">
+    <header>
+        <nav>
+            <div id="left-div">
+                <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="Google logo">
+                
+                <form>
+                    <label for="search"></label>
+                    <input id="searchbox" type="text">
+                    <input id="searchicon" type="submit" value="&#128269">
+                </form>
+            </div>
+            <div id="empty-div"></div>
+            <div class="nav-div-right">
+                <img src="./img/settings.png" alt="settings icon">
+                <img src="./img/more.png" alt="more logo">
+                <img src="https://www.windsorcakecraft.co.uk/images/super/TiffBlue_1.jpg" alt="profile">
+            </div>            
+        </nav>
+
+        <div class="result-type">
+            <div class="type-div" id="type-all">
+                <img src="./img/serach.png" alt="serach icon">
+                <p class="types">All</p>
+            </div>
+            <div class="type-div">
+                <img src="./img/image.png" alt="image icon">
+                <p class="types">Images</p>
+            </div>
+            <div class="type-div">
+                <img src="./img/news.png" alt="news icon">
+                <p class="types">News</p>
+            </div>
+            <div class="type-div">
+                <img src="./img/map.png" alt="map icon">
+                <p class="types">Maps</p>
+            </div>
+            <div class="type-div">
+                <img src="./img/video.png" alt="video icon">
+                <p class="types">Videos</p>
+            </div>
+            <div class="type-div">
+                <img src="./img/3dots.png" alt="more icon">
+                <p class="types">More</p>
+            </div>
         </div>
-    </nav>
+    </header>
 
     <main>
         <h2>results here</h2>
