@@ -12,7 +12,7 @@ const phResults = [
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
-
+app.get('/results', (req, res) => res.json(phResults))
 
 
 const port = 3000
