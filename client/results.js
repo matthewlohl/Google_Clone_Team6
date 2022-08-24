@@ -31,7 +31,8 @@ function grabSearch(e) {
         .then(displayResults)
 }
 
-// function displayResults(){
-//     const 
+function displayResults(){
+    const link1 = document.getElementById(`link-${1}`)
+    
 
-// }
+}
