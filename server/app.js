@@ -11,9 +11,9 @@ const foodResults = [
 ]
 
 const sportResults = [
-  {id: 1, url: "", title: "result1", description: "", tags: "",},
-  {id: 2, url: "", title: "result2", description: "", tags: "",},
-  {id: 3, url: "", title: "result3", description: "", tags: "",}
+  {id: 1, url: "https://www.bbc.co.uk/sport", title: "Scores, Fixtures, News - Live Sport - BBC Sport", description: "Sports news and live sports coverage including scores, results, video, audio and analysis on Football, F1, Cricket, Rugby Union and all other UK sports.", tags: "",},
+  {id: 2, url: "https://en.wikipedia.org/wiki/Sport", title: "Sport - Wikipedia", description: "Sport pertains to any form of competitive physical activity or game that aims to use, maintain, or improve physical ability and skills while providing enjoyment ...", tags: "",},
+  {id: 3, url: "https://www.skysports.com/", title: "Sky Sports - Sports News, Transfers, Scores | Watch Live Sport", description: "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, F1, Boxing, NFL, NBA, plus the latest sports news, transfers & scores.", tags: "",}
 ]
 
 const filmResults = [
