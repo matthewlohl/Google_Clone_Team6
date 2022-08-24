@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 const form = document.querySelector('form')
 form.addEventListener('submit', grabSearch)
 
@@ -38,4 +37,3 @@ function displayResults(){
     
 
 }
->>>>>>> fdd784d6ce087241a1a5c08c9868adf2af236d94
